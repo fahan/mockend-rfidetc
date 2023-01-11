@@ -39,7 +39,7 @@
     "_": {
       "items": 25
     },
-    "rfid_code": {
+    "rfidCode": {
       "regexp": "[A-B]{1}\\d{15}"
     },
     "status": {
@@ -48,7 +48,7 @@
         "untagged"
       ]
     },
-    "created_at": {
+    "createdAt": {
       "dateTime": {
         "min": "2010-01-01T00:00:00Z",
         "max": "2020-12-31T23:59:59Z"
