@@ -28,15 +28,9 @@
       }
     }
   },
-  "rfidLabel": {
+  "RfidLabel": {
     "_": {
       "items": 25
-    },
-    "status": {
-      "string": [
-        "tagged",
-        "untagged"
-      ]
     },
     "created_at": {
       "dateTime": {
