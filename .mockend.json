@@ -18,18 +18,34 @@
         "maxLength": 100
       }
     },
-    "tag": {
-      "string": [
-        "one",
-        "two",
-        "three"
-      ]
+    "rfid_labels": {
+      "hasMany": "RfidLabel"
     },
-    "createdAt": {
+    "created_at": {
       "dateTime": {
         "min": "2010-01-01T00:00:00Z",
         "max": "2020-12-31T23:59:59Z"
       }
+    }
+  },
+  "rfidLabel": {
+    "_": {
+      "items": 25
+    },
+    "status": {
+      "string": [
+        "tagged",
+        "untagged"
+      ]
+    },
+    "created_at": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2020-12-31T23:59:59Z"
+      }
+    },
+    "company": {
+      "belongsTo": "Company"
     }
   }
 }
