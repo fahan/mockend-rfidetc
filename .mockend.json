@@ -18,8 +18,8 @@
         "maxLength": 100
       }
     },
-    "rfid_labels": {
-      "hasMany": "RfidLabel"
+    "labels": {
+      "hasMany": "Label"
     },
     "created_at": {
       "dateTime": {
@@ -28,7 +28,7 @@
       }
     }
   },
-  "RfidLabel": {
+  "Label": {
     "_": {
       "items": 25
     },
