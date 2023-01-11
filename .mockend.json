@@ -26,7 +26,7 @@
       ]
     },
     "rfid_labels": {
-      "hasMany": "Rfid_label"
+      "hasMany": "RfidLabel"
     },
     "created_at": {
       "dateTime": {
@@ -35,7 +35,7 @@
       }
     }
   },
-  "Rfid_label": {
+  "RfidLabel": {
     "_": {
       "items": 25
     },
