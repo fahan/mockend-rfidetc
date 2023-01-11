@@ -6,7 +6,7 @@
     "logo": {
       "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
     },
-    "company_name": {
+    "companyName": {
       "loremWords": {
         "minLength": 5,
         "maxLength": 20
